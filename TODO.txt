@@ -1,0 +1,17 @@
+- Usar indexador externo: Djapian ou Solango?
+- Usar MPTT para buscas por "path"
+- I18N - Como fazer pt-br padrão
+- Django 1.2
+- Tipos: 
+  Circuito
+   Esquema - Imagem
+   Desenho da Placa Superior: Opcional
+   Desenho da Placa Inferior: Opcional
+   Lista de componentes
+  Componente
+   Tipo: aberto
+   Fabricante
+   Símbolo
+- Capa
+    Composite pages
+- Integrar com DVCS
