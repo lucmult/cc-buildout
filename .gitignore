@@ -1,0 +1,8 @@
+bin/
+*.db
+downloads/
+eggs/
+*.pyc
+parts/
+develop-eggs/
+.installed.cfg
