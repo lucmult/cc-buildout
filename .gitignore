@@ -6,3 +6,4 @@ eggs/
 parts/
 develop-eggs/
 .installed.cfg
+lfc-project/media/*
