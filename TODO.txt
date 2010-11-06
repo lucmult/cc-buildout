@@ -5,13 +5,16 @@
 - Tipos: 
   Circuito
    Esquema - Imagem
-   Desenho da Placa Superior: Opcional
-   Desenho da Placa Inferior: Opcional
+   Desenho da Placa superior: Opcional
+   Desenho da Placa Inferior: Opcional   
+   Arquivo de Esquema em formato Eagle
+   Arquivo da placa em formato Eagle
    Lista de componentes
   Componente
    Tipo: aberto
-   Fabricante
+   Fabricante (pode ser disponível por mais de um fabricante)
    Símbolo
+   Link para datasheet(ou arquivo PDF?)
 - Capa
     Composite pages
 - Integrar com DVCS
