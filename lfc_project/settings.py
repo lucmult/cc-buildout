@@ -1,5 +1,7 @@
+# coding:utf-8
 import os
 DIRNAME = os.path.dirname(__file__)
+PROJECT_PATH = os.path.abspath(os.path.split(__file__)[0])
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -120,14 +122,18 @@ EMAIL_HOST_PASSWORD = ""
 PAGINATION_DEFAULT_PAGINATION = 5
 PAGINATION_DEFAULT_WINDOW = 1
 
-LANGUAGES = (("en", u"English"), ("de", u"German"))
+LANGUAGES = (("en", u"English"), ("de", u"German"), ("pt-BR","Portuguese"))
 LFC_MULTILANGUAGE = len(LANGUAGES) > 1
 LFC_MANAGE_WORKFLOWS = True
 LFC_MANAGE_PERMISSIONS = True
 LFC_MANAGE_APPLICATIONS = True
 LFC_MANAGE_USERS = True
 
+#permite fazer configuraçoes locais
 try:
-    from local_settings import *
-except ImportError:
+    execfile(PROJECT_PATH+'/local_settings.py')
+    #print 'Usando configuracao LOCAL'
+except IOError:
+    #print 'Usando configuracao PADRAO'
     pass
+
