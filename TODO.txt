@@ -18,3 +18,4 @@
 - Capa
     Composite pages
 - Integrar com DVCS
+- Edição online de templates (django-dbtemplates)
