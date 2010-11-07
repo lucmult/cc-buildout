@@ -1,0 +1,17 @@
+# coding: utf-8
+#DEBUG = False
+#TEMPLATE_DEBUG = False
+
+#CACHE_BACKEND = 'memcached://127.0.0.1:11211/'
+
+# O DebugFooter inclui no rodapé de toda página vãrias infos úteis para
+# depurar, inclusive os comandos SQL efetivamente executados no request
+MIDDLEWARE_CLASSES += (
+     #'debug_middleware.DebugFooter',
+)
+
+INSTALLED_APPS += (
+    #'django.contrib.admindocs',
+    #'django.contrib.databrowse',
+    #'extensions',
+)
